@@ -1,7 +1,6 @@
 const { readFile } = require('fs/promises')
 const { error } = require('./constants')
 const User = require('./user')
-  ;
 
 const DEFAULT_OPTIONS = {
   maxLines: 4,

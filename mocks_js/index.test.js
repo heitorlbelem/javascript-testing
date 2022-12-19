@@ -1,9 +1,8 @@
-const File = require('./src/file')
+const File = require('./src/index')
 const { rejects, deepStrictEqual } = require('assert')
 const { error } = require('./src/constants')
-  ;
 
-(async () => {
+;(async () => {
   {
     const filePath = './mocks/invalid-fields.csv'
     const rejection = new Error(error.FILE_FIELDS_ERROR_MESSAGE)
@@ -27,25 +26,25 @@ const { error } = require('./src/constants')
     const expected = [
       {
         "id": 1,
-        "name": "heitor",
-        "profession": "dev",
+        "name": "teste um",
+        "profession": "desenvolvedor",
         "birthYear": 1998
       },
       {
         "id": 2,
-        "name": "nat",
+        "name": "teste dois",
         "profession": "dentista",
         "birthYear": 1997
       },
       {
         "id": 3,
-        "name": "tres",
+        "name": "teste tres",
         "profession": "pedreiro",
         "birthYear": 1982
       },
       {
         "id": 4,
-        "name": "quatro",
+        "name": "teste quatro",
         "profession": "maceneiro",
         "birthYear": 1988
       }
