@@ -1,0 +1,20 @@
+[
+  {
+    "id": "3fda3f00-e7f1-49a2-ada4-c755843e8e05",
+    "name": "Jetta",
+    "available": true,
+    "gasFull": true
+  },
+  {
+    "id": "d2fe3b3d-834a-4beb-9638-3747aa9cd982",
+    "name": "Impala",
+    "available": true,
+    "gasFull": true
+  },
+  {
+    "id": "98164dc3-0a41-4f59-a492-dbc20cbdeda0",
+    "name": "Malibu",
+    "available": true,
+    "gasFull": true
+  }
+]
